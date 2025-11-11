@@ -1,0 +1,49 @@
+## CREATING VIRTUAL ENVIRONMNET USING CONDA 
+
+# create virtual environment
+conda create -p venv python=3.12
+
+# click on y
+
+# Activate conda
+conda activate venv/
+
+# To show package ,it used when package install example startproject is a package.
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+# If you want deactivate conda
+conda deactivate
+
+# To show the folder
+ls
+
+# To go inside folder
+cd folder_name
+cd Day01
+
+# To create jupiter notebook
+    a) create file
+       example = test.ipynb
+   b) Install notebook
+      pip install notebook
+   c) Install ipykernel
+      pip install ipykernel
+
+# initialise git
+git init
+
+# add git
+git add .
+
+# git commit 
+git commit -m "message"
+
+# push into git
+git push
+
+# To check git branches
+git branch
+
+# Create new branch and immediately switches to it.
+git checkout -b branch_name
